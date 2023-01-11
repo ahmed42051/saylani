@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section .num{
+    background-color: rgb(177, 177, 177);
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .info{
+    padding: 5px 150px ;
+    font-size: 15px;
+}
+
+section .info a{
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+    font-style: bold;
+    
+}
+
+.english{
+  padding: 5px 150px ;
+  height: 5rem;
+
+}
+
+.english #cars{
+    height: 1.5rem;
+    width: 5rem;
+}
+
+.navbar{
+
+    height: 3rem;
+    background-color: whitesmoke;
+}
+
+.navbar .minue{
+    flex: 1;
+    padding: 10px 250px;
+}
+.navbar .minue a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 12px;
+    color: rgb(43, 43, 43);
+}
