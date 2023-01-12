@@ -64,6 +64,18 @@ section .info a{
     margin-top: 1.3rem;
 }
 
+.navbar .minue .ref a::after{
+    content: '';
+    width: 0%;/*underline become hidden*/
+    height: 2px;
+    background: green;
+    display: block;/*display under line*/
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar .minue .ref a:hover:after{
+width: 100%;
+}
 .navbar .minue .ref .logo img{
     position: relative;
     /* padding: 13px; */
@@ -74,7 +86,7 @@ section .info a{
 
 .navbar .minue .ref button{
     height: 2.7rem;
-    width: 8rem;
+    width: 9rem;
     background-color: #0D6DB7;
     border-radius: 7px;
     border: none;
@@ -83,21 +95,23 @@ section .info a{
 }
 
 
-.navbar .minue .ref button a{
+ .navbar .minue .ref button a{
     color: #EEEEEE;
-    font-size: 0.8rem;
+    font-size: 0.8rem; 
+    align-items: center;
+    /* padding-top: 7rem; */
 
 }
-.navbar .minue .ref button :hover{
+/* .navbar .minue .ref button :hover{
     background-color: #0D6DB7;
     height: 3rem;
     width: 12rem;
     transition: 700ms;
     border-radius: 7px;
     border: none;
-}
+} */
 
-.navbar .minue .ref button a:hover{
+/* .navbar .minue .ref button a:hover{ 
     background-color: #0D6DB7;
     color: wheat;
     height: 3rem;
@@ -105,7 +119,7 @@ section .info a{
     transition: 700ms;
     border-radius: 7px;
     border: none;
-}
+} */
 .navbar .minue a{
     text-decoration: none;
     text-transform: capitalize;
