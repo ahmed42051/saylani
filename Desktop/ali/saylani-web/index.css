@@ -5,7 +5,7 @@
 }
 
 section .num{
-    background-color: rgb(177, 177, 177);
+    background-color: #EEEEEE;
     height: 2rem;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@ section .info{
 
 section .info a{
     text-decoration: none;
-    color: white;
+    color: #666666;
     margin: 25px;
     font-style: bold;
     
@@ -31,23 +31,87 @@ section .info a{
 }
 
 .english #cars{
-    height: 1.5rem;
+    height: 1.8rem;
     width: 5rem;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .navbar{
-
-    height: 3rem;
-    background-color: whitesmoke;
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 5.7rem;
+    background-color: #FFFFFF;
+    /* border: 1 solid #FFFFFF; */
+    box-shadow: 0 2px 0px rgba(73, 71, 71, 0.1);
 }
 
+
+
 .navbar .minue{
+    position: relative;
+    height: 100%;
     flex: 1;
-    padding: 10px 250px;
+    /* padding: 10px 250px; */
+    /* padding-top: 3px; */
+}
+
+.navbar .minue .ref {
+    position: relative;
+    display: flex;
+      height: 90%;
+    margin-top: 1.3rem;
+}
+
+.navbar .minue .ref .logo img{
+    position: relative;
+    /* padding: 13px; */
+    height: 3.2rem;
+
+    padding-left: 10rem;
+}
+
+.navbar .minue .ref button{
+    height: 2.7rem;
+    width: 8rem;
+    background-color: #0D6DB7;
+    border-radius: 7px;
+    border: none;
+   
+   
+}
+
+
+.navbar .minue .ref button a{
+    color: #EEEEEE;
+    font-size: 0.8rem;
+
+}
+.navbar .minue .ref button :hover{
+    background-color: #0D6DB7;
+    height: 3rem;
+    width: 12rem;
+    transition: 700ms;
+    border-radius: 7px;
+    border: none;
+}
+
+.navbar .minue .ref button a:hover{
+    background-color: #0D6DB7;
+    color: wheat;
+    height: 3rem;
+    width: 15rem;
+    transition: 700ms;
+    border-radius: 7px;
+    border: none;
 }
 .navbar .minue a{
     text-decoration: none;
     text-transform: capitalize;
-    padding: 12px;
+    padding: 18px;
+    font-size: 1rem;
+    /* padding-top: 4rem; */
+    /* margin: 0.5rem; */
     color: rgb(43, 43, 43);
 }
